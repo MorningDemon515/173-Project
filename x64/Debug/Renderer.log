@@ -1,0 +1,5 @@
+﻿E:\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(SCP-Containment Breach.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  LoadModel.cpp
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\LoadModel.cpp(263,68): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
+LoadModel.obj : warning LNK4006: "public: struct aiScene const * __cdecl Assimp::Importer::ReadFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int)" (?ReadFile@Importer@Assimp@@QEAAPEBUaiScene@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z) 已在 assimp-vc142-mtd.lib(assimp-vc142-mtd.dll) 中定义；已忽略第二个定义
+  Renderer.vcxproj -> E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\Renderer.lib

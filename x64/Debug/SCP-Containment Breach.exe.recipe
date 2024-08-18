@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\ThirdParty\GLEW\glew-2.2.0\bin\Debug\x64\glew32d.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\SCP-Containment Breach.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

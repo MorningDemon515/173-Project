@@ -1,0 +1,34 @@
+﻿E:\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(Renderer.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  Main.cpp
+    正在创建库 E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\SCP-CB.lib 和对象 E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\SCP-CB.exp
+LINK : warning LNK4098: 默认库“LIBCMTD”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+freetype.lib(autofit.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(autofit.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(ftbase.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(ftbase.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(ftbitmap.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(ftbitmap.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(ftinit.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(ftinit.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(ftmm.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(ftmm.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(bdf.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(bdf.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(cff.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(cff.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(type1cid.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(type1cid.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(ftgzip.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(ftgzip.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(ftlzw.obj) : warning LNK4099: 未找到 PDB“”(使用“freetype.lib(ftlzw.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(pcf.obj) : warning LNK4099: 未找到 PDB“”(使用“freetype.lib(pcf.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(pfr.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(pfr.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(psaux.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(psaux.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(pshinter.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(pshinter.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(psmodule.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(psmodule.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(raster.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(raster.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(sfnt.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(sfnt.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(smooth.obj) : warning LNK4099: 未找到 PDB“”(使用“freetype.lib(smooth.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(sdf.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(sdf.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(svg.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(svg.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(truetype.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(truetype.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(type1.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(type1.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(type42.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(type42.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(winfnt.obj) : warning LNK4099: 未找到 PDB“”(使用“freetype.lib(winfnt.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(ftdebug.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(ftdebug.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(ftsystem.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(ftsystem.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+jsoncpp_static.lib(json_reader.obj) : warning LNK4099: 未找到 PDB“jsoncpp_static.pdb”(使用“jsoncpp_static.lib(json_reader.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\jsoncpp_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+jsoncpp_static.lib(json_value.obj) : warning LNK4099: 未找到 PDB“jsoncpp_static.pdb”(使用“jsoncpp_static.lib(json_value.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\jsoncpp_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+jsoncpp_static.lib(json_writer.obj) : warning LNK4099: 未找到 PDB“jsoncpp_static.pdb”(使用“jsoncpp_static.lib(json_writer.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\jsoncpp_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  SCP-Containment Breach.vcxproj -> E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\SCP-CB.exe

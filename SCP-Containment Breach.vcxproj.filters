@@ -33,9 +33,6 @@
     <ClCompile Include="Src\LoadModel.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Src\UTF8.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Src\Text_GL.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -65,13 +62,7 @@
     <ClInclude Include="Src\LoadModel.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Src\UTF8.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="Src\Text_GL.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Src\GLText.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Src\FileSystem.h">

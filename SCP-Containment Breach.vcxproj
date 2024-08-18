@@ -159,13 +159,11 @@
     <ClCompile Include="Src\MainScence.cpp" />
     <ClCompile Include="Src\Text.cpp" />
     <ClCompile Include="Src\Text_GL.cpp" />
-    <ClCompile Include="Src\UTF8.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h" />
     <ClInclude Include="resource1.h" />
     <ClInclude Include="Src\FileSystem.h" />
-    <ClInclude Include="Src\GLText.hpp" />
     <ClInclude Include="Src\Image.h" />
     <ClInclude Include="Src\Launcher.h" />
     <ClInclude Include="Src\LoadModel.h" />
@@ -173,7 +171,6 @@
     <ClInclude Include="Src\Shader.h" />
     <ClInclude Include="Src\Text.h" />
     <ClInclude Include="Src\Text_GL.h" />
-    <ClInclude Include="Src\UTF8.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="SCP-Containment Breach.rc" />
@@ -184,6 +181,11 @@
   <ItemGroup>
     <Library Include="ThirdParty\ASSIMP\lib\assimp-vc142-mtd.lib" />
     <Library Include="ThirdParty\jsoncpp\lib\jsoncpp_static.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Src\Renderer\Renderer.vcxproj">
+      <Project>{e94d5f0a-5d0c-46d3-b53c-a51d6393ffc4}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

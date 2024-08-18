@@ -2,6 +2,9 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
+      <FullPath>E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\Renderer.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
       <FullPath>E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\SCP-CB.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>

@@ -1,5 +1,4 @@
 #include "Text_GL.h"
-#include "UTF8.h"
 
 #include <vector>
 #include <unordered_map>

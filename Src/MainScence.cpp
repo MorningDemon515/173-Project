@@ -19,7 +19,7 @@
 
 #include <windows.h>
 
-Image_GL* imgl;
+Image_GL* igl;
 Image* image;
 Model* mdl;
 
@@ -57,11 +57,6 @@ int Scence::MainWorld()
 
     //加载模型
     mdl->LoadOBJ(npc173,tex173);
-
-    SpriteRenderer spriteRenderer;
-    spriteRenderer.Init();
-    spriteRenderer.LoadTexture("GFX/menu/back.png");
-
 
     //设置主循环
     bool running = true;
@@ -104,11 +99,9 @@ int Scence::MainWorld()
 
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-        // Draw the sprite
-        spriteRenderer.DrawSprite(glm::vec2(0.0f, 0.0f), glm::vec2(0.5f, -0.5f), 0.0f);
-
         SDL_GL_SwapWindow(window);
 
+        igl->Draw_BackGround_GL("GFX/menu/Launcher.jpg");
 
         SDL_Delay(1);
 
@@ -121,6 +114,61 @@ int Scence::MainWorld()
     return 0;
 }
 
+// 函数：从文件读取着色器代码
+std::string Scence::readShaderSource(const std::string& filepath) {
+    std::ifstream file(filepath);
+    std::stringstream buffer;
+    buffer << file.rdbuf();
+    return buffer.str();
+}
+
+// 函数：编译着色器
+GLuint Scence::compileShader(GLenum type, const std::string& source) {
+    GLuint shader = glCreateShader(type);
+    const GLchar* sourceCStr = source.c_str();
+    glShaderSource(shader, 1, &sourceCStr, nullptr);
+    glCompileShader(shader);
+
+    GLint success;
+    GLchar infoLog[512];
+    glGetShaderiv(shader, GL_COMPILE_STATUS, &success);
+    if (!success) {
+        glGetShaderInfoLog(shader, 512, nullptr, infoLog);
+        std::cerr << "Shader compilation failed: " << infoLog << std::endl;
+    }
+    return shader;
+}
+
+// 函数：创建着色器程序
+GLuint Scence::createShaderProgram(const std::string& vertexPath, const std::string& fragmentPath) {
+    // 读取着色器代码
+    std::string vertexCode = readShaderSource(vertexPath);
+    std::string fragmentCode = readShaderSource(fragmentPath);
+
+    // 编译顶点着色器和片段着色器
+    GLuint vertexShader = compileShader(GL_VERTEX_SHADER, vertexCode);
+    GLuint fragmentShader = compileShader(GL_FRAGMENT_SHADER, fragmentCode);
+
+    // 链接着色器程序
+    GLuint shaderProgram = glCreateProgram();
+    glAttachShader(shaderProgram, vertexShader);
+    glAttachShader(shaderProgram, fragmentShader);
+    glLinkProgram(shaderProgram);
+
+    GLint success;
+    GLchar infoLog[512];
+    glGetProgramiv(shaderProgram, GL_LINK_STATUS, &success);
+    if (!success) {
+        glGetProgramInfoLog(shaderProgram, 512, nullptr, infoLog);
+        std::cerr << "Shader program linking failed: " << infoLog << std::endl;
+    }
+
+    // 删除着色器对象，链接完成后不再需要
+    glDeleteShader(vertexShader);
+    glDeleteShader(fragmentShader);
+
+    return shaderProgram;
+}
 
 /*
 SDL_Event mainevent;
@@ -276,168 +324,7 @@ int Scence::MainWorld()
 }
 */
 
-// Vertex and Fragment Shader Source Code
-const char* vertexShaderSource = R"(
-    #version 330 core
-    layout(location = 0) in vec3 aPos;
-    layout(location = 1) in vec2 aTexCoord;
-    
-    out vec2 TexCoord;
-    
-    uniform mat4 model;
-    
-    void main()
-    {
-        gl_Position = model * vec4(aPos, 1.0);
-        TexCoord = aTexCoord;
-    }
-)";
 
-const char* fragmentShaderSource = R"(
-    #version 330 core
-    out vec4 FragColor;
-    
-    in vec2 TexCoord;
-    
-    uniform sampler2D texture1;
-    
-    void main()
-    {
-        FragColor = texture(texture1, TexCoord);
-    }
-)";
-
-SpriteRenderer::SpriteRenderer() : textureID(0), VAO(0), VBO(0), shaderProgram(0), textureWidth(0), textureHeight(0), nrChannels(0) {}
-
-SpriteRenderer::~SpriteRenderer() {
-    glDeleteVertexArrays(1, &VAO);
-    glDeleteBuffers(1, &VBO);
-    glDeleteTextures(1, &textureID);
-    glDeleteProgram(shaderProgram);
-}
-
-bool SpriteRenderer::Init() {
-    // 编译着色器并链接程序
-    GLuint vertexShader = CompileShader(vertexShaderSource, GL_VERTEX_SHADER);
-    GLuint fragmentShader = CompileShader(fragmentShaderSource, GL_FRAGMENT_SHADER);
-    shaderProgram = LinkProgram(vertexShader, fragmentShader);
-
-    // 设置四边形的 VAO 和 VBO
-    SetupQuad();
-
-    return true;
-}
-
-void SpriteRenderer::LoadTexture(const std::string& filePath) {
-    glGenTextures(1, &textureID);
-    glBindTexture(GL_TEXTURE_2D, textureID);
-
-    // 加载纹理数据
-    unsigned char* data = stbi_load(filePath.c_str(), &textureWidth, &textureHeight, &nrChannels, 0);
-    if (data) {
-        GLenum format;
-        if (nrChannels == 1)
-            format = GL_RED;
-        else if (nrChannels == 3)
-            format = GL_RGB;
-        else if (nrChannels == 4)
-            format = GL_RGBA;
-        else {
-            std::cerr << "Unsupported number of channels: " << nrChannels << std::endl;
-            stbi_image_free(data);
-            return;
-        }
-
-        glTexImage2D(GL_TEXTURE_2D, 0, format, textureWidth, textureHeight, 0, format, GL_UNSIGNED_BYTE, data);
-        glGenerateMipmap(GL_TEXTURE_2D);
-    }
-    else {
-        std::cerr << "Failed to load texture: " << filePath << std::endl;
-    }
-    stbi_image_free(data);
-}
-
-void SpriteRenderer::DrawSprite(const glm::vec2& position, const glm::vec2& size, float rotation) {
-    glUseProgram(shaderProgram);
-
-    glm::mat4 model = glm::mat4(1.0f);
-    model = glm::translate(model, glm::vec3(position, 0.0f));
-    model = glm::scale(model, glm::vec3(size, 1.0f));
-    model = glm::rotate(model, glm::radians(rotation), glm::vec3(0.0f, 0.0f, 1.0f));
-
-    GLuint modelLoc = glGetUniformLocation(shaderProgram, "model");
-    glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-
-    glActiveTexture(GL_TEXTURE0);
-    glBindTexture(GL_TEXTURE_2D, textureID);
-
-    GLuint textureLoc = glGetUniformLocation(shaderProgram, "texture1");
-    glUniform1i(textureLoc, 0);
-
-    glBindVertexArray(VAO);
-    glDrawArrays(GL_TRIANGLES, 0, 6);
-    glBindVertexArray(0);
-}
-
-void SpriteRenderer::SetupQuad() {
-    float vertices[] = {
-        // positions          // texture coords
-        0.5f,  0.5f, 0.0f,   1.0f, 1.0f, // Top-right
-        0.5f, -0.5f, 0.0f,   1.0f, 0.0f, // Bottom-right
-       -0.5f, -0.5f, 0.0f,   0.0f, 0.0f, // Bottom-left
-       -0.5f, -0.5f, 0.0f,   0.0f, 0.0f, // Bottom-left
-       -0.5f,  0.5f, 0.0f,   0.0f, 1.0f, // Top-left
-        0.5f,  0.5f, 0.0f,   1.0f, 1.0f  // Top-right
-    };
-
-    glGenVertexArrays(1, &VAO);
-    glGenBuffers(1, &VBO);
-
-    glBindVertexArray(VAO);
-
-    glBindBuffer(GL_ARRAY_BUFFER, VBO);
-    glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
-
-    // 设置顶点属性指针
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)0);
-    glEnableVertexAttribArray(0);
-
-    glVertexAttribPointer(1, 2, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)(3 * sizeof(float)));
-    glEnableVertexAttribArray(1);
-
-    glBindVertexArray(0);
-}
-
-GLuint SpriteRenderer::CompileShader(const char* source, GLenum type) {
-    GLuint shader = glCreateShader(type);
-    glShaderSource(shader, 1, &source, NULL);
-    glCompileShader(shader);
-
-    GLint success;
-    GLchar infoLog[512];
-    glGetShaderiv(shader, GL_COMPILE_STATUS, &success);
-    if (!success) {
-        glGetShaderInfoLog(shader, 512, NULL, infoLog);
-        std::cout << "Shader compilation error: " << infoLog << std::endl;
-    }
-    return shader;
-}
-
-GLuint SpriteRenderer::LinkProgram(GLuint vertexShader, GLuint fragmentShader) {
-    GLuint program = glCreateProgram();
-    glAttachShader(program, vertexShader);
-    glAttachShader(program, fragmentShader);
-    glLinkProgram(program);
-
-    GLint success;
-    GLchar infoLog[512];
-    glGetProgramiv(program, GL_LINK_STATUS, &success);
-    if (!success) {
-        glGetProgramInfoLog(program, 512, NULL, infoLog);
-        std::cout << "Program linking error: " << infoLog << std::endl;
-    }
-    return program;
-}
 
 
 

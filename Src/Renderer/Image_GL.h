@@ -5,6 +5,10 @@
 #include <gtc/matrix_transform.hpp>
 #include <gtc/type_ptr.hpp>
 
+#include <cstdio>
+#include <cstdlib>
+#include <ctime>
+
 #ifdef _MSC_VER
 #define OUTAPI(x) __declspec(dllexport) x
 #else
@@ -15,12 +19,13 @@
 #include <iostream>
 #include <map>
 
+
 class Image_GL
 {
 private:
     
 public:
-    OUTAPI(int) Draw_Image_GL();
+    OUTAPI(int) Draw_BackGround_GL(const char* filepath);
 };
 
 

@@ -18,28 +18,19 @@
     <ClCompile Include="Image_GL.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Sprite_Renderer.cpp">
+    <ClCompile Include="RenderSprite.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Shader_New.cpp">
+    <ClCompile Include="..\..\ThirdParty\gl2d\src\gl2d.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Resource_Manager.cpp">
+    <ClCompile Include="..\..\ThirdParty\gl2d\src\gl2dParticleSystem.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Texture_New.cpp">
+    <ClCompile Include="..\..\ThirdParty\gl2d\src\stb_image.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ThirdParty\SOIL\src\image_dxt.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\ThirdParty\SOIL\src\image_helper.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\ThirdParty\SOIL\src\soil.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\ThirdParty\SOIL\src\stb_image_aug.c">
+    <ClCompile Include="..\..\ThirdParty\gl2d\src\stb_truetype.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -47,16 +38,7 @@
     <ClInclude Include="Image_GL.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Sprite_Renderer.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Shader_New.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Resource_Manager.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Texture_New.h">
+    <ClInclude Include="RenderSprite.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

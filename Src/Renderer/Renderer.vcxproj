@@ -116,7 +116,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\..\ThirdParty\GLEW\include;..\..\ThirdParty\Stb;..\..\ThirdParty\GLM\glm;..\..\ThirdParty\jsoncpp\include;..\..\ThirdParty\inicpp;..\..\ThirdParty\SOIL\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\ThirdParty\GLEW\include;..\..\ThirdParty\Stb;..\..\ThirdParty\GLM\glm;..\..\ThirdParty\jsoncpp\include;..\..\ThirdParty\inicpp;..\..\ThirdParty\gl2d\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -133,7 +133,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\..\ThirdParty\GLEW\include;..\..\ThirdParty\Stb;..\..\ThirdParty\GLM\glm;..\..\ThirdParty\jsoncpp\include;..\..\ThirdParty\inicpp;..\..\ThirdParty\SOIL\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\ThirdParty\GLEW\include;..\..\ThirdParty\Stb;..\..\ThirdParty\GLM\glm;..\..\ThirdParty\jsoncpp\include;..\..\ThirdParty\inicpp;..\..\ThirdParty\gl2d\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -145,22 +145,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\ThirdParty\SOIL\src\image_dxt.c" />
-    <ClCompile Include="..\..\ThirdParty\SOIL\src\image_helper.c" />
-    <ClCompile Include="..\..\ThirdParty\SOIL\src\soil.c" />
-    <ClCompile Include="..\..\ThirdParty\SOIL\src\stb_image_aug.c" />
+    <ClCompile Include="..\..\ThirdParty\gl2d\src\gl2d.cpp" />
+    <ClCompile Include="..\..\ThirdParty\gl2d\src\gl2dParticleSystem.cpp" />
+    <ClCompile Include="..\..\ThirdParty\gl2d\src\stb_image.cpp" />
+    <ClCompile Include="..\..\ThirdParty\gl2d\src\stb_truetype.cpp" />
     <ClCompile Include="Image_GL.cpp" />
-    <ClCompile Include="Resource_Manager.cpp" />
-    <ClCompile Include="Shader_New.cpp" />
-    <ClCompile Include="Sprite_Renderer.cpp" />
-    <ClCompile Include="Texture_New.cpp" />
+    <ClCompile Include="RenderSprite.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Image_GL.h" />
-    <ClInclude Include="Resource_Manager.h" />
-    <ClInclude Include="Shader_New.h" />
-    <ClInclude Include="Sprite_Renderer.h" />
-    <ClInclude Include="Texture_New.h" />
+    <ClInclude Include="RenderSprite.h" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="..\..\ThirdParty\jsoncpp\lib\jsoncpp_static.lib" />

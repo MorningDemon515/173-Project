@@ -1,228 +1,79 @@
 ﻿E:\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(Renderer.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
-  MainScence.cpp
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x17e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x180 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x181 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1a4 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1a6 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1a8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x279 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x27a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x27b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x27c 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x27d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x27e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x27f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x280 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x28b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x28d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x28f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x290 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x291 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x294 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x297 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x298 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x29a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x29b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x29c 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x385 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x386 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x387 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x388 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x38f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x391 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x393 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x3c3 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x3c5 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x3cd 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x3cf 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x3d1 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x3f9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x3fa 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x3ff 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x400 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x426 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x427 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x42b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x4bc 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x4be 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x4c3 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x4c5 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x4c6 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x4cb 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x543 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x544 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x546 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x548 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x549 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x5f1 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x5f3 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x5f5 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x5f9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x5fa 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x917 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x919 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x967 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x968 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x969 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x96b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x96d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x970 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x98f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x992 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x995 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0xbc5 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0xbc6 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0xbca 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0xc00 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0xc02 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0xc0a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0xc0c 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0xc0e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0xc10 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0xd1a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0xd1b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0xd1c 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0xd1d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0xd21 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0xd22 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0xd23 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0xd24 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0xf13 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0xf14 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0xf15 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0xf16 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0xf1d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0xf1f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0xf21 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0xfa7 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0xfa8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0xfac 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0xfd6 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0xfd8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0xfde 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0xfdf 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0xfe1 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0xfe6 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0xfe7 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1128 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1129 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1132 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x11af 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x11b1 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x11b3 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x11b4 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x11b5 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x11b6 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x11b8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x11b9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x11ba 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x12af 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x12b0 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x12b1 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x12b2 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x12b3 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x12b4 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x12b5 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x12b6 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x12b8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x12ba 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x12bb 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x15b9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x15bd 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x15be 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1602 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1603 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1604 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1605 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1608 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1609 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1977 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x197a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x197d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1a56 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1a57 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1a58 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1a59 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1a5a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1a5b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1a5c 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1a5f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1a60 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1a61 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1a64 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1a65 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1a66 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1a6a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1a6d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1a6e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1a6f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1a71 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1a73 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1ad8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1ada 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1adb 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1f5e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1f5f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1f62 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1f66 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1f68 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1f69 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1f6a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1f6b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1f6c 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1f6f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x1f71 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x2063 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x2065 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x2067 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x2069 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x206a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x206e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x2074 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x2075 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x2142 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x2143 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x2145 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x2147 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x2149 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x214c 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x214d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x2a49 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x2a4b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x2a4d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x2a4e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x2a4f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x2a50 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x2a53 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.cpp(1,1): warning C4828: 文件包含在偏移 0x2a57 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.h(1,1): warning C4828: 文件包含在偏移 0x309 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.h(1,1): warning C4828: 文件包含在偏移 0x30a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.h(1,1): warning C4828: 文件包含在偏移 0x30b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.h(1,1): warning C4828: 文件包含在偏移 0x30c 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.h(1,1): warning C4828: 文件包含在偏移 0x30f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.h(1,1): warning C4828: 文件包含在偏移 0x310 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.h(1,1): warning C4828: 文件包含在偏移 0x313 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.h(1,1): warning C4828: 文件包含在偏移 0x314 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.h(1,1): warning C4828: 文件包含在偏移 0x333 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.h(1,1): warning C4828: 文件包含在偏移 0x334 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.h(1,1): warning C4828: 文件包含在偏移 0x335 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.h(1,1): warning C4828: 文件包含在偏移 0x336 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.h(1,1): warning C4828: 文件包含在偏移 0x339 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.h(1,1): warning C4828: 文件包含在偏移 0x33a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.h(1,1): warning C4828: 文件包含在偏移 0x33d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\MainScence.h(1,1): warning C4828: 文件包含在偏移 0x340 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\LoadModel.h(1,1): warning C4828: 文件包含在偏移 0xc8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\LoadModel.h(1,1): warning C4828: 文件包含在偏移 0xc9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\LoadModel.h(1,1): warning C4828: 文件包含在偏移 0xca 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\LoadModel.h(1,1): warning C4828: 文件包含在偏移 0xcb 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\LoadModel.h(1,1): warning C4828: 文件包含在偏移 0xce 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\Text_GL.h(1,1): warning C4828: 文件包含在偏移 0x366 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\Text_GL.h(1,1): warning C4828: 文件包含在偏移 0x367 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\Text_GL.h(1,1): warning C4828: 文件包含在偏移 0x369 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\Text_GL.h(1,1): warning C4828: 文件包含在偏移 0x372 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\Text_GL.h(1,1): warning C4828: 文件包含在偏移 0x373 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\Text_GL.h(1,1): warning C4828: 文件包含在偏移 0x376 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\Text_GL.h(1,1): warning C4828: 文件包含在偏移 0x377 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
-E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Src\Text_GL.h(1,1): warning C4828: 文件包含在偏移 0x378 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  Main.cpp
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x1e9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x1eb 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x1ec 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x213 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x215 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x217 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x224 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x225 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x229 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x258 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x259 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x25a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x25b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x261 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x262 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x263 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x264 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x316 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x317 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x318 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x319 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x31a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x31b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x31c 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x31d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x351 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x352 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x353 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x354 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x35b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x35d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x35f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x38f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x391 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x399 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x39b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x39d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x3c4 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x3c5 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x3c9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x45a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x45c 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x45e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x462 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\Main.cpp(1,1): warning C4828: 文件包含在偏移 0x463 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+    正在创建库 E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\SCP-CB.lib 和对象 E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\SCP-CB.exp
+LINK : warning LNK4098: 默认库“LIBCMTD”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+freetype.lib(autofit.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(autofit.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(ftbase.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(ftbase.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(ftbitmap.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(ftbitmap.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(ftinit.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(ftinit.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(ftmm.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(ftmm.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(bdf.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(bdf.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(cff.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(cff.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(type1cid.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(type1cid.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(ftgzip.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(ftgzip.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(ftlzw.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(ftlzw.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(pcf.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(pcf.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(pfr.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(pfr.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(psaux.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(psaux.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(pshinter.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(pshinter.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(psmodule.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(psmodule.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(raster.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(raster.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(sfnt.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(sfnt.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(smooth.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(smooth.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(sdf.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(sdf.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(svg.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(svg.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(truetype.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(truetype.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(type1.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(type1.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(type42.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(type42.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(winfnt.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(winfnt.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(ftdebug.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(ftdebug.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+freetype.lib(ftsystem.obj) : warning LNK4099: 未找到 PDB“freetype.pdb”(使用“freetype.lib(ftsystem.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\freetype.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+jsoncpp_static.lib(json_reader.obj) : warning LNK4099: 未找到 PDB“jsoncpp_static.pdb”(使用“jsoncpp_static.lib(json_reader.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\jsoncpp_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+jsoncpp_static.lib(json_value.obj) : warning LNK4099: 未找到 PDB“jsoncpp_static.pdb”(使用“jsoncpp_static.lib(json_value.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\jsoncpp_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+jsoncpp_static.lib(json_writer.obj) : warning LNK4099: 未找到 PDB“jsoncpp_static.pdb”(使用“jsoncpp_static.lib(json_writer.obj)”或在“E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\jsoncpp_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
   SCP-Containment Breach.vcxproj -> E:\MyGame\SCP-CB-New-Engine\SCP-Containment Breach\x64\Debug\SCP-CB.exe
